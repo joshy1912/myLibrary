@@ -1,17 +1,17 @@
 package org.myLibrary;
 
-public class Buch {
-
+class Buch {
     private String titel;
     private String autor;
-    private  String isbn;
+    private String isbn;
 
-    public Buch(String titel, String autor, String isbn){
+    public Buch(String titel, String autor, String isbn) {
         this.titel = titel;
         this.autor = autor;
         this.isbn = isbn;
     }
-    public String getTitel(){
+
+    public String getTitel() {
         return titel;
     }
 
@@ -22,5 +22,4 @@ public class Buch {
     public String getIsbn() {
         return isbn;
     }
-
 }
